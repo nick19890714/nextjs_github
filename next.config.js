@@ -3,7 +3,7 @@ module.exports = {
   basePath: '/nextjs_github',
   assetPrefix: '/nextjs_github',
   images: {
-    domains: ['nextjs_github'],
+    // domains: ['nextjs_github'],
     loader: "imgix",
     path: "",
   },

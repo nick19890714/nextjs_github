@@ -56,7 +56,7 @@ jobs:
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4.2.2
         with:
-          branch: gh-pages # The branch the action should deploy to.
+          branch: releases/v4 # The branch the action should deploy to.
           folder: . # The folder the action should deploy.
         # uses: peaceiris/actions-gh-pages@v3
         # with:

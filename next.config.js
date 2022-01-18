@@ -1,7 +1,7 @@
 module.exports = {
   reactStrictMode: true,
   basePath: '/nextjs_github',
-  assetPrefix: '/nextjs_github/',
+  assetPrefix: '/',
   // images: {
   //   // domains: ['nextjs_github'],
   //   loader: "imgix",

@@ -2,11 +2,11 @@ module.exports = {
   reactStrictMode: true,
   // basePath: '/',
   assetPrefix: '.',
-  images: {
-    // domains: ['nextjs_github'],
-    loader: "imgix",
-    path: "/",
-  },
+  // images: {
+  //   // domains: ['nextjs_github'],
+  //   loader: "imgix",
+  //   path: "/",
+  // },
   exportPathMap: async function (defaultPathMap, { dev, dir, outDir, distDir, buildId }) {
     return {
       '/': { page: '/' },

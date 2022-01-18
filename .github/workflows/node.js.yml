@@ -50,7 +50,7 @@ jobs:
         run: npm run export
         # env: 
         #   NEXT_PUBLIC_BASE_PATH: '/'
-
+      - name: Touch nojekyll
         run: touch ./out/.nojekyll
 
       - name: Deploy 🚀

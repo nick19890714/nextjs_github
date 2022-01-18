@@ -48,8 +48,8 @@ jobs:
         # env: 
         #   NEXT_PUBLIC_BASE_PATH: '/'
 
-      # - name: Export static website
-      #   run: npm run export
+      - name: Export static website
+        run: npm run export
         # env: 
         #   NEXT_PUBLIC_BASE_PATH: '/'
 

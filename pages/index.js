@@ -1,13 +1,13 @@
 import Head from 'next/head';
 import Link from 'next/link';
-import fetch from 'isomorphic-unfetch';
+// import fetch from 'isomorphic-unfetch';
 // import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
 // const prefix = process.
 
 export default function Home(props) {
-  const name =  props.data | '';
+  const name = props.data | '';
   return (
     <div className={styles.container}>
       <Head>
@@ -73,6 +73,8 @@ export default function Home(props) {
     </div>
   )
 }
+
+
 
 // export async function getStaticProps() {
 //   const response = await fetch('http://localhost:3000/api/hello');

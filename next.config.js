@@ -11,7 +11,7 @@ module.exports = {
     return {
       '/': { page: '/' },
       '/new': { page: '/new' },
-      '/api/hello': { page: '/api/hello' },
+      // '/api/hello': { page: '/api/hello' },
       // '/preview': { page: '/preview' }
     }
   }

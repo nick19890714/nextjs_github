@@ -6,7 +6,7 @@ const New = () => {
     useEffect(async () => {
         if (!data) {
             const res = await fetch('http://localhost:3000/api/hello').catch((error) => { console.log(error) });
-            if (res.status === 200) {
+            if (res?.status === 200) {
                 const datas = await res?.json();
             } else {
                 setData(123);
